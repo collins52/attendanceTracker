@@ -1,0 +1,16 @@
+@import url('cssReset.css');
+@import url('../cssVariable.css');
+
+#qrCode {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101vh;
+  }
+
+  body{
+    background-color: var(--primary-color);
+  }
+  

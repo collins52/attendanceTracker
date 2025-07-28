@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>Admin login</title>
+    <script type="module" src="login.js" defer></script>
+    <link rel="stylesheet" href="/AttendanceForm/attendanceForm.css">
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>AdminPanel login</h1>
+    <div id="formDiv">
+      <div id="container">
+        <input type="text" id="staffName" class="email" placeholder="Admin name">
+        <input type="password" id="staffId" class="password" placeholder="Password">
+        <img src="svgs/visibillityOn.svg" alt="visibility" class="visibilityIcon">
+        <button type="button" class="doneBtn" id="login">DONE</button>
+        <p id="resetPassword"></p>
+        <span class="spinner" style="display: none;"></span>
+      </div>
+    </div>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js"></script>
+  </body>`

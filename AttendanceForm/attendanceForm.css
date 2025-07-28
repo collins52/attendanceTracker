@@ -1,0 +1,76 @@
+@import url(/cssReset.css);
+@import url(/cssVariable.css);
+#formDiv {
+    width: 308px;
+    height: 368px;
+    border: 1px solid var(--border-color);
+    margin: auto;
+    border-radius: 10px;
+}
+#formDiv #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: 61.08px auto;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 32px;
+    margin: 148px 0 16.57px 0;
+}
+
+input{
+    width: 268.86px;
+    height: 49.94px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 31.46px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+#doneBtn{
+    width: 269px;
+    height: 47px;
+    background-color: #2563EB;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.doneBtn{
+    width: 269px;
+    height: 47px;
+    background-color: #2563EB;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.visibilityIcon {
+    position: relative;
+    top: -67px;
+    left: 105px;
+    /* border: 1px solid #00000067; */
+}
+
+  .spinner {
+    border: 4px solid var(--primary-color);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    display: none;
+    margin: 10px 10px;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

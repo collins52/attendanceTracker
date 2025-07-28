@@ -1,0 +1,50 @@
+@import url('cssReset.css');
+  h1{
+    color: var(--primary-color);
+    /* border: 1px solid #192670; */
+    width: fit-content;
+    margin: 100px auto 40px;
+  }
+  
+  #formDiv{
+    border: 2px solid var(--primary-color);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 35px 0 45px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  input{
+    width: 84%;
+    height: 55px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 0 10px;
+    font-size: 17px;
+  }
+
+  input::placeholder{
+    font-size: 17px;
+  }
+
+  #login{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    font-size: 19px;
+    border-radius: 6px;
+  }
+
+  p{
+    color: var(--primary-color);
+    width: 265px;
+    text-align: center;
+    margin: 20px auto 0;
+  }

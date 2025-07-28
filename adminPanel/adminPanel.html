@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminPanel.css">
+    <title>Admin panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script type="module" src="./adminPanel.js"></script>
+</head>
+<body>
+    <div id="topPanel">
+        <div id="admin">
+                <img src="../svgs/account_circle.svg" alt="">
+            <h3>Admin</h3>
+        </div>
+        <div id="dashBoard">
+            <div> <span id="nOfPresentStaff"> 28 </span> Present</div>
+            <div> <span id="nOfAbsentStaff"> 28 </span> Absent</div>
+            <div> <span id="totalStaffCount"> 28 </span> Registered Workers</div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="attendanceList"><img src="../svgs/list.svg" alt="">Attendance list</button>
+        <button id="addStaff"><img src="../svgs/addPErson.svg" alt="">Add Staff</button>
+        <button id="registeredStaff"><img src="../svgs/checklist.svg" alt="">Registered Staff</button>
+    </div>
+</body>
+</html>

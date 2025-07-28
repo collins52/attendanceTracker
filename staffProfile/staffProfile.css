@@ -1,0 +1,45 @@
+@import url('../cssReset.css');
+@import url('../cssVariable.css');
+
+#menuBar {
+    border: 5px solid red;
+}
+
+#profileIcon{
+    /* margin: 214px 50vw; */
+    width: 100px;
+}
+
+#profileIconContainer{
+    /* border: 1px solid black; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+ul{
+    /* border: 1px solid purple; */
+    width: fit-content;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+
+}
+
+#mainProfileContainer{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+li{
+    margin: 0 0 23.5px 0;
+    list-style-type: none;
+}
+
+strong{
+    color: var(--primary-color);
+}
