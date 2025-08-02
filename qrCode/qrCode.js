@@ -1,4 +1,4 @@
-const loginUrl = "https://5tqqgsff-5501.euw.devtunnels.ms/AttendanceForm/attendanceForm.html"; // Replace with your actual login page URL
+const loginUrl = "https://attendance-tracker-two-omega.vercel.app/AttendanceForm/attendanceForm.html"; // Replace with your actual login page URL
 
   const qrcode = new QRCode(document.getElementById("qrCode"), {
     text: loginUrl,
